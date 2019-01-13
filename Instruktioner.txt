@@ -1,0 +1,38 @@
+Lägg till fonts och färger här!
+
+
+/* Färgpalett
+färgpalett:
+#1a1919
+#be000e
+#f6f4f2
+#002b6c
+#011e2e
+
+*/
+
+
+
+Kristina - produkter
+Simon - home page
+Julian - about
+Kamphol - provida med material, footer, menu, loga
+
+
+
+Vi säljer spaprodukter:
+tvålar
+lotion
+shampoo
+
+
+
+färgpalett:
+#1a1919
+#be000e
+#f6f4f2
+#002b6c
+#011e2e
+
+
+opacity på meny

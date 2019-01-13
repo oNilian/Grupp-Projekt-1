@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  position: relative;
+height: 800px;
+background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
+color: #cbbcab;
+
+
+}
+
+h1, h2, h3 {
+    font-family: "Roboto Condensed";
+    font-weight: normal;
+}
+.width100 {
+    width: 100%;
+}
+.centeralign{
+    text-align: center;
+}
+
+summary::-webkit-details-marker {
+    display: none
+}
+  
+summary:after {
+    float: left; 
+    height: 20px;
+    width: 20px;
+    content: "+";
+}
+  
+details[open] summary:after {
+    content: "-";
+}
+
+.sami-input-number {
+    width: 45px;
+    height: 42px;
+    line-height: 1.65;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    
+}
+
+#sami-addtocard-button{
+    border: 1px solid #444444;
+    border-radius: 5px;
+    width: 50%;
+    height: 40px;;
+}
+
+.sami-container {
+    margin: 10%;
+    width: 80%;
+    padding: 10px;
+    margin-top: 230px;
+}
+
+.sami-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sami-grid-items{
+    padding: 10px;
+    margin: 10px;
+}
+.sami-thumbnail-div {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.sami-thumbnail-div img{
+    width: 15%;
+}
+
+.sami-images{
+    width: 100%;
+    /* opacity: 0.5; */
+    /* filter: alpha(opacity=50); */
+}
+
+@media all and (min-width: 600px) {
+    .sami-grid-container { flex: 1 auto; }
+    .sami-grid-items{order :1;}
+  }
+ 
+  @media all and (max-width: 800px) {
+    .sami-grid-container   { 
+        flex: 3 0px; 
+        grid-template-columns: 1fr;
+    }
+    .sami-grid-items { order: 1; }
+
+  }

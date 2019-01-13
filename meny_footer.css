@@ -1,0 +1,128 @@
+
+/* ---------------header börjar här ----------------- */
+
+.head {
+  width: 100%;
+  height: 133px;
+  position: fixed;
+  top: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1a1919;
+  background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
+  opacity: 0.8;
+  left: 0;
+  z-index: 1;
+  transition: .5s sease;
+
+  /* animation: change 10s infinite; */
+}
+
+/* @keyframes change{
+  0%  { background-color:#1a1919}
+  25% { background-color:#be000e}
+  50% { background-color:#f6f4f2}
+  75% { background-color:#002b6c}
+  100%{ background-color:#011e2e}
+} */
+
+
+.head < a:hover{
+  color: #af4e31;
+}
+.logo {
+
+  text-align: center;
+  color: #cbbcab;
+  margin-top: -50px;
+  font-size: 300%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hitta_hit {
+  margin-left: 1%;
+  height: 50px;
+  font-size: 100%;
+}
+
+.meny_cata{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.meny_cata > div{
+  flex-grow: 1;
+}
+
+
+.logg_in {
+  font-size: 90%;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  margin-right: 5%;
+  color: #cbbcab;
+}
+
+.logg_contanier>li {
+  margin-right: 2em;
+  max-width: 100px;
+  max-height: 100px;
+}
+a{
+  color: green;
+  text-decoration: none;
+}
+
+/*----------- header ends here-----------*/
+
+
+
+
+
+
+
+
+
+/* ----------------Footer starts here------------------ */
+.container_footer {
+position: absolute;
+width: 100%;
+height: 200px;
+left: 0px;
+bottom: 0px;
+background-color: #011e2e;
+color: #f6f4f2;
+border-top: 1px solid black;
+font-family: ‘Shadows Into Light’, cursive;
+}
+@media (max-width:600px){
+.socal_text {
+  margin-left: 36px;
+  font-size: 100%
+}
+}
+
+
+.socal_icon{
+position: absolute;
+bottom: 0px;
+
+}
+
+
+.open_time {
+text-align: center;
+font-size: 100%;
+margin-top:1em;
+width: auto;
+
+}
+
+.map {
+position: absolute;
+bottom: 1em;
+right: 0;
+margin-right: 10px;
+}

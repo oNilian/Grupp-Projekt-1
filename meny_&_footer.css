@@ -1,0 +1,131 @@
+/* ---------------header börjar här ----------------- */
+.head {
+  width: 100%;
+  height: 133px;
+  position: fixed;
+  top: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #f6f4f2;
+  opacity: 0.8;
+  left: 0;
+  z-index: 1;
+   animation: change 10s infinite;
+  color: #011e2e;
+  /* transition: .4s sease; */
+}
+  /* @keyframes change{
+  0%  { background-color:#1a1919}
+  25% { background-color:#be000e}
+  50% { background-color:#f6f4f2}
+  75% { background-color:#002b6c}
+  100%{ background-color:#011e2e}
+} */
+.logo {
+  text-align: center;
+  margin-top: -50px;
+  font-size: 300%;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+  letter-spacing: 4px;
+}
+
+.hitta_hit {
+  margin-left: 3%;
+  height: 50px;
+  font-size: 100%;
+  padding-top: 20px;
+}
+
+.meny_cata {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+header a:hover{
+  color: #af4e31;
+}
+
+.meny_cata > div {
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+.logg_in {
+  font-size: 90%;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  margin-right: 5%;
+}
+
+.logg_contanier>li {
+  margin-right: 2em;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+a {
+  color: #011e2e;
+  text-decoration: none;
+}
+
+/*----------- header ends here-----------*/
+
+
+
+
+
+
+
+
+/* ----------------Footer starts here------------------ */
+.container_footer {
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  left: 0px;
+  background-color: #f6f4f2;
+  color: #011e2e;
+  border-top: 1px solid black;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media (max-width:600px) {
+  .socal_text {
+    margin-left: 36px;
+    font-size: 100%
+  }
+}
+
+.socal_icon {
+  position: absolute;
+  bottom: 0px;
+}
+
+.open_time {
+  text-align: center;
+  font-size: 100%;
+  margin-top: 1em;
+  width: auto;
+}
+
+.map {
+  position: absolute;
+  bottom: 1em;
+  right: 0;
+  margin-right: 30px;
+  width: 200px;
+  height: 180px;
+}
+
+@media (max-width:600px) {
+  .map{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+  }
+}

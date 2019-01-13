@@ -1,0 +1,484 @@
+/* Färgpalett
+färgpalett:
+#1a1919
+#be000e
+#f6f4f2
+#002b6c
+#011e2e
+//Ny textfärg - på blå bakgrund
+#cbbcab  <-- både p & h1 - h6
+#af4e31  <-- istället för röd [Länkar]
+
+
+https://drive.google.com/drive/folders/1gkIMxfNHBKRPQe9XE2jHIirSQGCT-U86?usp=sharing
+
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1919;
+  color: #1a1919;
+  font-size: 16px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+h1 {
+  font-family: Roboto Condensed;
+}
+
+h2 {
+  margin-top: 50px;
+  margin: 0px;
+  /* position: relative; */
+  top: 10px;
+  font-size: 2rem;
+  text-shadow: 3px 3px #011e2e;
+  color: #cbbcab;
+  font-family: Roboto Condensed;
+}
+
+h3 {
+  font-size: 2em;
+  color: #cbbcab;
+}
+
+p, ul {
+  /* position: relative; */
+  margin: 0px bottom: 15px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #cbbcab;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+  font-size: 1em;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+/* Slut på header */
+/*--Bild med text--*/
+.logo-container {
+  text-align: center;
+  background-image: url("pictures/tomoko-uji-630443-unsplash.jpg");
+  width: 100%;
+  min-height: 666px;
+  margin: 0 auto;
+  margin-top: 133px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  letter-spacing: 15px;
+  color: #cbbcab;
+  text-shadow: -3px 0 #1a1919, 0 1px #1a1919, 1px 0 #1a1919, 0 -1px #1a1919;
+}
+
+.logo-home {
+  display: inline-block;
+  margin: 0;
+  margin-top: 140px;
+  text-decoration: none;
+  font-size: 10rem;
+}
+
+.logo-container p {
+  font-size: 2rem;
+  color: #cbbcab;
+}
+
+.logo-container button {
+  background: none;
+  font-size: 3em;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  padding: 16px 22px;
+  /* position: static; */
+  cursor: pointer;
+  color: #cbbcab;
+  transition: .3s ease;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.logo-container button:hover {
+  color: #af4e31;
+}
+
+.logo-container button:visited {
+  color: #cbbcab;
+}
+
+@media (max-width:600px) {
+  .logo-container {
+    object-fit: contain;
+  }
+}
+
+@media (max-width:600px) {
+  .logo-home {
+    text-align: center;
+    font-size: 3em;
+    padding: 10px;
+  }
+
+  .logo-container p, .logo-container button {
+    font-size: 1.5em;
+  }
+}
+
+/*--log in  ----*/
+/*
+.bg-img {
+  background-image: url("img_nature.jpg");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+*/
+/*
+.container-log {
+  position: relative;
+  bottom:500px;
+  right:200px;
+  margin: 0 auto;
+  display: inline-block;
+  margin: 10px;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #af4e31;
+  border: 1px solid black;
+  border-radius: 34px;
+  display: none;
+}
+
+@media (max-width:600px) {
+  .container-log {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f6f4f2;
+  border-radius: 30px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #f6f4f2;
+  outline: none;
+  border-radius: 30px;
+}
+
+.btn {
+  background-color: #cbbcab;
+  color: #f6f4f2;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.login-page:hover .container-log {
+  display:inline-block;
+  position: absolute;
+  top:700px;
+  left:60px;
+  max-height:333px;
+  z-index: 2;
+
+}
+*/
+/* Citat */
+cite {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  font-style: normal;
+  padding: 50px;
+}
+
+blockquote q {
+  font-style: italic;
+  letter-spacing: .1rem;
+}
+
+blockquote q span {
+  will-change: opacity, filter;
+  opacity: 0;
+  filter: blur(0px);
+}
+
+q {
+  quotes: "“""”""‘""’";
+}
+
+q:before {
+  content: open-quote;
+  margin-right: 1rem;
+}
+
+q:after {
+  content: close-quote;
+  margin-left: 1rem;
+}
+
+q:before, q:after {
+  color: #cbbcab;
+  font-size: 2rem;
+}
+
+@media (max-width:600px) {
+  q {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  cite {
+    margin: 0;
+  }
+}
+
+/*Slut på citat */
+/* Flex container*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexall {
+  width: 100%;
+  position: relative;
+  opacity: 0.8;
+}
+
+.flex2,
+.flex3 {
+  width: 100%;
+}
+
+@media (min-width:600px) {
+  .flex2, .flex3 {
+    width: 50%;
+  }
+}
+
+.flex-container img {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease;
+}
+
+.flex-container img:hover {
+  filter: grayscale(0%);
+}
+
+/*Slut på flex, början på  kända personer som använder */
+.flextext {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flextext2 {
+  flex: 1;
+  width: 50%;
+}
+
+.listdiv>* {
+  width: 50%;
+  flex: 1;
+  background-color: #cbbcab;
+  color: #1a1919;
+}
+
+.listdiv, ul {
+  list-style-type: none;
+  text decoration: none;
+  margin: 50px;
+  padding: 20px;
+  color: #f6f4f2;
+  text-align: left;
+  border-radius: 40px;
+  border: 1px solid #cbbcab;
+}
+
+@media(max-width:600px) {
+  .flexalltext {
+    width: 100;
+  }
+}
+
+.textall {
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
+  text-align: left;
+  color: #f6f4f2;
+  padding: 10px;
+}
+
+@media (min-width:600px) {
+  .textall {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+.textdiv {
+  width: 40%;
+  display: inline-block;
+}
+
+@media (max-width:600px) {
+  .textdiv {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
+
+.textall h3 a {
+  color: #af4e31;
+}
+
+.textall h3 a:hover {
+  /*background-color: #011e2e;*/
+  text-decoration: none;
+  color: #af4e31;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+@media (min-width:600px) {
+  .textall h3 a {
+    font-size: 1rem;
+    color: #f6f4f2;
+  }
+}
+
+.textall p a:hover {
+  text-decoration: none;
+  color: #af4e31;
+}
+
+.textall p a {
+  color: #af4e31;
+}
+
+/* Början på vitt område */
+.headline_block {
+  /* background:#f6f4f2; */
+  color: #011e2e;
+  text-align: center;
+  padding: 30px;
+  animation: changeBackground 5s ease infinite;
+}
+
+@keyframes changeBackground {
+  0% {
+    background: #f6f4f2;
+  }
+
+  40% {
+    background: #afada8;
+  }
+
+  60% {
+    background: #afada8;
+  }
+
+  100% {
+    background: #f6f4f2;
+  }
+}
+
+.headline_block h2 {
+  margin: 0;
+}
+
+/* Slut på vitt område */
+/*grid börjar */
+.stories-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+}
+
+@media (min-width:600px) {
+  .stories-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.gridall {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f4f2;
+  position: relative;
+}
+
+.gridall img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f6f4f2;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .5s ease;
+}
+
+.gridall:hover .overlay {
+  transform: scale(1);
+  opacity: 0.6;
+}
+
+.text1>* {
+  color: #011e2e;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+@media (max-width:600px) {
+  .text1 {
+    font-size: 0.5rem;
+  }
+}
